@@ -1,4 +1,4 @@
-package project.resources;
+package version;
 
 public class c {
 

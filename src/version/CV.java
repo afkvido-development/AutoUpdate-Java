@@ -1,7 +1,5 @@
 package version;
 
-import project.resources.c;
-
 import java.util.Scanner;
 
 import static version.Version.*;
