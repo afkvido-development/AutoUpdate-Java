@@ -19,7 +19,7 @@ _______
 ## How to set up AutoUpdate for your project
 If you want updates to be automatically enforced in your Java project, follow these steps.
 
-### Part 1: Set up the API
+### Part 1: Set up the [API](https://github.com/afkvido-development/AutoUpdate-Java-API/)
 
 - [Generate the API](https://github.com/afkvido-development/AutoUpdate-Java-API/generate)
 - In your newly generated API, go to `src/API/Stable.latest`, and make the file content exactly what your projects latest stable version is (ex. `0.1.0`)
