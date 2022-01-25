@@ -1,4 +1,4 @@
-package Version;
+package version;
 
 import org.jetbrains.annotations.NotNull;
 
