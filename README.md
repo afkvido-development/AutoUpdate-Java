@@ -4,9 +4,19 @@
 
 
 Automatically enforce updates to the latest version! (For **Java**)
+_______
 
+## This repository
+- [Code](https://github.com/afkvido-development/AutoUpdate-Java/tree/main)
+- [Releases](https://github.com/afkvido-development/AutoUpdate-Java/releases)
+- [Issues](https://github.com/afkvido-development/AutoUpdate-Java/issues)
+- [Pull Requests](https://github.com/afkvido-development/AutoUpdate-Java/pulls)
+- [Actions](https://github.com/afkvido-development/AutoUpdate-Java/actions)
+- [Discussions](https://github.com/afkvido-development/AutoUpdate-Java/discussions)
 
-## How to set this up for your project
+_______
+
+## How to set up AutoUpdate for your project
 If you want updates to be automatically enforced in your Java project, follow these steps.
 
 ### Part 1: Set up the API
@@ -40,3 +50,5 @@ If you want updates to be automatically enforced in your Java project, follow th
 - Go to your project's main class
 - Import version `import version.CV;`
 - In the main function, add `CV.CheckVersion();` at the very start.
+
+You're done! Your project will now automatically enforce that everyone updates to the latest version.
