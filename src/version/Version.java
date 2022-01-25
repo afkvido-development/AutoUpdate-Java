@@ -6,7 +6,7 @@ public final @NotNull class Version {
 
     // Using Semantic versioning
 
-    public @NotNull final static String Version = "0.1.0"; // THIS = CLIENT VERSION (Semantic versioning recommended)
+    public @NotNull final static String Version = "0.1.1"; // THIS = CLIENT VERSION (Semantic versioning recommended)
 
     public @NotNull final static String Build = "Stable"; // THIS = BUILD TYPE (Stable, Beta, Alpha, etc)
 

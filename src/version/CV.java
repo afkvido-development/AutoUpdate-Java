@@ -46,8 +46,8 @@ public interface CV {
             System.exit(0);
 
         } else {
-            System.out.print(c.yw + "You are running " + ProjectName  + c.cy + Version + c.yw + ", the latest version is " + c.cy + fetchLatest + c.yw + ".");
-            System.out.println(c.rd + "You are on an unsupported version of " + ProjectName + ". \nMake sure you're on the latest version of " + ProjectName + c.rs);
+            System.out.print(c.yw + "You are running " + ProjectName + " " + c.cy + Version + c.yw + ", the latest version is " + c.cy + fetchLatest.replace("\n", "") + c.yw + ".");
+            System.out.println(c.rd + "\nYou are on an unsupported version of " + ProjectName + ". Please update to the latest version of " + ProjectName + "." + c.rs);
             System.out.println(c.cy + "Download the latest version of " + ProjectName + ": " + DownloadsURL);
             wait.nextLine();
             System.exit(0);
